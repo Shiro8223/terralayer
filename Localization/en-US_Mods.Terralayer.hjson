@@ -1,0 +1,262 @@
+Keybinds: {
+	ClassAbility.DisplayName: Class Ability
+	OpenEstate.DisplayName: Open Estate
+	DepthsMap.DisplayName: Depths Map
+}
+
+Conditions: {
+	Floor1: After opening floor 1
+	Floor2: After opening floor 2
+	Floor3: After opening floor 3
+	Floor4: After opening floor 4
+	Floor5: After opening floor 5
+}
+
+Configs: {
+	TerralayerConfig: {
+		DisplayName: Terralayer Settings
+
+		TollPercent: {
+			Label: Gatekeeper toll (%)
+			Tooltip: Share of the coins you carry that the Gatekeeper takes each time you descend. Coins in your safe are tolled at half this rate. Toll Relief lowers both.
+		}
+
+		PinnedLayoutExtraToll: {
+			Label: Extra toll while the layout is pinned (%)
+			Tooltip: Added to the toll while the Cartographer keeps the dungeon layout fixed.
+		}
+
+		DeathCoinLossPercent: {
+			Label: Coins lost on death (%)
+			Tooltip: Share of the coins you carry that is lost when an heir dies. The rest is kept for upgrades.
+		}
+
+		EnemyStrength: {
+			Label: Depths enemy strength
+			Tooltip: Multiplies the life and damage of enemies in the Depths.
+		}
+
+		GoldMultiplier: {
+			Label: Gold multiplier
+			Tooltip: Multiplies bonus gold from enemies, chests and rooms.
+		}
+	}
+}
+
+NPCs: {
+	Steward: {
+		DisplayName: Steward
+
+		TownNPCMood: {
+			Content: The estate is in order, and so am I.
+			NoHome: A steward without an estate? Find me a room, please.
+			FarFromHome: I'm a long way from home.
+			DislikeCrowded: It's getting crowded around here.
+			HateCrowded: Far too many people in this house!
+			LoveSpace: Plenty of room. Lovely.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+
+	Gatekeeper: {
+		DisplayName: Gatekeeper
+
+		TownNPCMood: {
+			Content: Business is steady. People keep going down.
+			NoHome: Even a gatekeeper needs a gate. Or at least a door.
+			FarFromHome: I'm a long way from home.
+			DislikeCrowded: It's getting crowded around here.
+			HateCrowded: Far too many people in this house!
+			LoveSpace: Plenty of room. Lovely.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+
+	Smith: {
+		DisplayName: Smith
+
+		TownNPCMood: {
+			Content: Forge is hot, hammer's heavy. Life is good.
+			NoHome: Where am I supposed to put an anvil?
+			FarFromHome: I'm a long way from home.
+			DislikeCrowded: It's getting crowded around here.
+			HateCrowded: Far too many people in this house!
+			LoveSpace: Plenty of room. Lovely.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+
+	Runeweaver: {
+		DisplayName: Runeweaver
+
+		TownNPCMood: {
+			Content: The threads are calm today.
+			NoHome: I cannot weave without walls around me.
+			FarFromHome: I'm a long way from home.
+			DislikeCrowded: It's getting crowded around here.
+			HateCrowded: Far too many people in this house!
+			LoveSpace: Plenty of room. Lovely.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+
+	Healer: {
+		DisplayName: Healer
+
+		TownNPCMood: {
+			Content: Everyone is patched up. For now.
+			NoHome: A healer with no infirmary is just a person with bandages.
+			FarFromHome: I'm a long way from home.
+			DislikeCrowded: It's getting crowded around here.
+			HateCrowded: Far too many people in this house!
+			LoveSpace: Plenty of room. Lovely.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+
+	Cartographer: {
+		DisplayName: Cartographer
+
+		TownNPCMood: {
+			Content: Everything is exactly where I drew it.
+			NoHome: I'd draw myself a house, but that doesn't seem to work.
+			FarFromHome: I'm a long way from home.
+			DislikeCrowded: It's getting crowded around here.
+			HateCrowded: Far too many people in this house!
+			LoveSpace: Plenty of room. Lovely.
+			LikeNPC_Princess: I like {NPCName}.
+			Princess_LovesNPC: I like {NPCName}.
+		}
+	}
+
+	Peddler.DisplayName: Peddler
+	Herald.DisplayName: Herald
+	LostAngler.DisplayName: Angler
+}
+
+Projectiles: {
+	ArcaneOrb.DisplayName: Arcane Orb
+	SpiritWolf.DisplayName: Spirit Wolf
+}
+
+Items: {
+	RunePouch: {
+		DisplayName: Sealed Rune Pouch
+		Tooltip: ""
+	}
+
+	RefinementShard: {
+		DisplayName: Refinement Shard
+		Tooltip: ""
+	}
+
+	FortitudeRune: {
+		DisplayName: Fortitude Rune
+		Tooltip: ""
+	}
+
+	VigorRune: {
+		DisplayName: Vigor Rune
+		Tooltip: ""
+	}
+
+	SwiftnessRune: {
+		DisplayName: Swiftness Rune
+		Tooltip: ""
+	}
+
+	WardingRune: {
+		DisplayName: Warding Rune
+		Tooltip: ""
+	}
+
+	RenewalRune: {
+		DisplayName: Renewal Rune
+		Tooltip: ""
+	}
+
+	FuryRune: {
+		DisplayName: Fury Rune
+		Tooltip: ""
+	}
+
+	ZephyrRune: {
+		DisplayName: Zephyr Rune
+		Tooltip: ""
+	}
+
+	FocusRune: {
+		DisplayName: Focus Rune
+		Tooltip: ""
+	}
+
+	FortuneRune: {
+		DisplayName: Fortune Rune
+		Tooltip: ""
+	}
+
+	ThornsRune: {
+		DisplayName: Thorns Rune
+		Tooltip: ""
+	}
+
+	ReapingRune: {
+		DisplayName: Reaping Rune
+		Tooltip: ""
+	}
+
+	SplittingRune: {
+		DisplayName: Splitting Rune
+		Tooltip: ""
+	}
+
+	EmberRune: {
+		DisplayName: Ember Rune
+		Tooltip: ""
+	}
+
+	FrostRune: {
+		DisplayName: Frost Rune
+		Tooltip: ""
+	}
+
+	StormRune: {
+		DisplayName: Storm Rune
+		Tooltip: ""
+	}
+
+	VampiricRune: {
+		DisplayName: Vampiric Rune
+		Tooltip: ""
+	}
+
+	StarfallRune: {
+		DisplayName: Starfall Rune
+		Tooltip: ""
+	}
+
+	HiveRune: {
+		DisplayName: Hive Rune
+		Tooltip: ""
+	}
+
+	VenomRune: {
+		DisplayName: Venom Rune
+		Tooltip: ""
+	}
+
+	MidasRune: {
+		DisplayName: Midas Rune
+		Tooltip: ""
+	}
+
+	QuakeRune: {
+		DisplayName: Quake Rune
+		Tooltip: ""
+	}
+}

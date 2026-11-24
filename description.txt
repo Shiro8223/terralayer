@@ -1,0 +1,7 @@
+Terralayer turns Terraria into its own lineage roguelite. WARNING: it replaces world generation and strips any character that enters one of its worlds (a confirmation screen is shown first). Use a fresh character and a new world, and disable other content mods for Terralayer worlds.
+
+- Start with nothing on a homestead with a Steward and a Gatekeeper. Spend gold to raise new buildings, bringing new townsfolk and upgrades.
+- Every death passes the torch to a new heir: pick one of three, each with a class, traits (burdens pay out bonus gold) and starting gear.
+- Descend into the Depths: five floors of spacious, procedurally generated rooms carved across the whole world (sky gardens, flooded halls, lava forges, trap gauntlets, caverns), joined by rifts and ending in a randomly chosen guardian.
+- Weapons have rarities and refinement levels; duplicates merge. Socket runes for special effects, and fuse three identical runes into a rarer one.
+- Gold survives death. Gear doesn't, except your best weapon, which becomes the family heirloom.

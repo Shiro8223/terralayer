@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- tModLoader build targets. Build this mod from ModSources\Terralayer (a junction to this folder). -->
+  <Import Project="..\tModLoader.targets" Condition="Exists('..\tModLoader.targets')" />
+  <Import Project="$(USERPROFILE)\Documents\My Games\Terraria\tModLoader\ModSources\tModLoader.targets" Condition="!Exists('..\tModLoader.targets')" />
+  <PropertyGroup>
+    <AssemblyName>Terralayer</AssemblyName>
+  </PropertyGroup>
+</Project>
